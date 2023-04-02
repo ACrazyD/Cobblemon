@@ -1,0 +1,694 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "magikarp-skelly-1",
+            "pokemon": "magikarp jump=skelly",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "1-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+				"biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "timeRange": "night"
+            }
+        },
+		{
+            "id": "magikarp-skelly-2",
+            "pokemon": "magikarp jump=skelly",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "1-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+				"biomes": [
+                    "#cobblemon:is_spooky"
+                ],
+                "timeRange": "day"
+            },
+            "anticondition": {
+                "biomes": [
+					"#cobblemon:is_magical"
+                ]
+            }
+        },
+		{
+            "id": "magikarp-skelly-3",
+            "pokemon": "magikarp jump=skelly",
+            "presets": [
+                "underground",
+				"underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "1-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+				"biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-calico1-1",
+            "pokemon": "magikarp jump=calico-1",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_mountain",
+					"#cobblemon:is_snowy",
+					"#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-calico2-1",
+            "pokemon": "magikarp jump=calico-2",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_mountain",
+					"#cobblemon:is_snowy",
+					"#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-calico3-1",
+            "pokemon": "magikarp jump=calico-3",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_magical",
+					"#cobblemon:is_mountain",
+					"#cobblemon:is_snowy",
+					"#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-calico4-1",
+            "pokemon": "magikarp jump=calico-4",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mushroom"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-twotone-1",
+            "pokemon": "magikarp jump=two-tone",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-orca-1",
+            "pokemon": "magikarp jump=orca",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-dapples-1",
+            "pokemon": "magikarp jump=dapples",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_plains"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-pinktwotone-1",
+            "pokemon": "magikarp jump=pink-two-tone",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-pinkorca-1",
+            "pokemon": "magikarp jump=pink-orca",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-pinkdapples-1",
+            "pokemon": "magikarp jump=pink-dapples",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_magical"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-graybubbles-1",
+            "pokemon": "magikarp jump=gray-bubbles",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_jungle",
+					"#cobblemon:is_savanna",
+					"#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-graydiamonds-1",
+            "pokemon": "magikarp jump=gray-diamonds",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_jungle",
+					"#cobblemon:is_savanna",
+					"#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-graypatches-1",
+            "pokemon": "magikarp jump=gray-patches",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_floral",
+					"#cobblemon:is_jungle",
+					"#cobblemon:is_savanna",
+					"#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-purplebubbles-1",
+            "pokemon": "magikarp jump=purple-bubbles",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-purplediamonds-1",
+            "pokemon": "magikarp jump=purple-diamonds",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-purplepatches-1",
+            "pokemon": "magikarp jump=purple-patches",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_floral"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-apricottiger-1",
+            "pokemon": "magikarp jump=apricot-tiger",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+					"#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-apricotzebra-1",
+            "pokemon": "magikarp jump=apricot-zebra",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+					"#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-apricotstripes-1",
+            "pokemon": "magikarp jump=apricot-stripes",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+					"#cobblemon:is_savanna"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-browntiger-1",
+            "pokemon": "magikarp jump=brown-tiger",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-brownzebra-1",
+            "pokemon": "magikarp jump=brown-zebra",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-brownstripes-1",
+            "pokemon": "magikarp jump=brown-stripes",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-orangeforehead-1",
+            "pokemon": "magikarp jump=orange-forehead",
+            "presets": [
+                "underground",
+				"underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+				"biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-orangemask-1",
+            "pokemon": "magikarp jump=orange-mask",
+            "presets": [
+				"underground",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": false,
+				"biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-blackforehead-1",
+            "pokemon": "magikarp jump=black-forehead",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-blackmask-1",
+            "pokemon": "magikarp jump=black-mask",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-bluesaucy-1",
+            "pokemon": "magikarp jump=blue-saucy",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy",
+					"#cobblemon:is_tundra"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+					"#cobblemon:is_mountain",
+					"#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-blueraindrops-1",
+            "pokemon": "magikarp jump=blue-raindrops",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy",
+					"#cobblemon:is_tundra"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+					"#cobblemon:is_mountain",
+					"#cobblemon:is_taiga"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-violetsaucy-1",
+            "pokemon": "magikarp jump=violet-saucy",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "magikarp-violetraindrops-1",
+            "pokemon": "magikarp jump=violet-raindrops",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "1-20",
+            "weight": 5.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            }
+        }
+    ]
+}

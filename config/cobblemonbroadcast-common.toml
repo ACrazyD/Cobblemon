@@ -1,0 +1,29 @@
+
+["Broadcast Settings"]
+	#enabling or disabling Broadcast Message for Legendary Pokemon
+	islegendaryenabled = true
+	#enabling or disabling Broadcast Message for Ultra Beast Pokemon
+	isubenabled = true
+	#enabling or disabling Broadcast Message for Shiny Pokemon
+	isshinyenabled = true
+	#enabling or disabling Broadcast Message for Normal Pokemon
+	isnormalenabled = false
+	#Captured Message for Legendary Pokemon
+	legendmessagepath = " has captured Legendary "
+	#Captured Message for UltraBeast Pokemon
+	ubmessagepath = " has captured Ultra Beast "
+	#Captured Message for Shiny Pokemon
+	shinymessagepath = " has captured Shiny "
+	#Captured Message for Normal Pokemon
+	normalmessagepath = " has captured Normal "
+
+["Discord Webhook Settings"]
+	#Enable or disable DiscordWebhook support
+	discordhook = false
+	#Webhook End code of url
+	endcode = "10780232141243872095343/ZpFBl-lGgZziiMg5JP7vLXXxuBPAteyq1OkLLGS8qANJyA1vE7UIZxS9bD16mb1UCGKi"
+	#Webhook name
+	webhookname = "Cobble-Broadcaster"
+	#Webhook Embed Title
+	webhookembedtitle = "Pokemon Captured by: "
+
