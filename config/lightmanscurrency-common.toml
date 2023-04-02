@@ -36,11 +36,11 @@
 		#Settings Related to other Villagers
 		[common.villagers.other_traders]
 			#Whether vanilla villagers should have the Emeralds from their trades replaced with coins.
-			changeVanillaTrades = false
+			changeVanillaTrades = true
 			#Whether villagers added by other mods should have the Emeralds from their trades replaced with coins.
-			changeModdedTrades = false
+			changeModdedTrades = true
 			#Whether the wandering trader should have the emeralds from their trades replaced with the default trader coin.
-			changeWanderingTrades = false
+			changeWanderingTrades = true
 			#The default coin to replace a traders emeralds with.
 			defaultTraderCoin = "lightmanscurrency:coin_emerald"
 			#List of trader coin overrides.
