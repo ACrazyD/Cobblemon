@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
+    "time": 1680410296917,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nPZtz5BEUs"
+    }
+  }
+]
