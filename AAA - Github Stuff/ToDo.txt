@@ -1,3 +1,5 @@
 To-Do
 
 - Look into adding coins into urns loot table
+- Force LargeBiomes For Servers/Clients
+- Add Lootr Chests to CarryOn Blacklist
