@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:smouse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:smouse",
+      "model": "cobblemon:smouse.geo",
+      "texture": "cobblemon:textures/pokemon/smouse/smouse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/smouse/smouse_shiny.png"
+    }
+  ]
+}

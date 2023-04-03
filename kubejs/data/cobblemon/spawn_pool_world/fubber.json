@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fubber-1",
+            "pokemon": "fubber",
+            "presets": [
+                "underwater"
+            ],
+            "context": "submerged",
+            "type": "pokemon",
+            "bucket": "common",
+            "level": "3-25",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

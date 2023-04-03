@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:karoshicore",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:karoshicore",
+      "model": "cobblemon:karoshicore.geo",
+      "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/karoshicore/karoshicore_shiny.png"
+    }
+  ]
+}

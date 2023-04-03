@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "puffoon-1",
+            "pokemon": "puffoon",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "bucket": "uncommon",
+            "level": "30-41",
+            "weight": 3.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

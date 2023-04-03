@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gyweld-1",
+            "pokemon": "gyweld",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "32-58",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            }
+        }
+    ]
+}

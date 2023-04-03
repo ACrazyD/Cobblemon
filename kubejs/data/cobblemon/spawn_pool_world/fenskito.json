@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fenskito-1",
+            "pokemon": "fenskito",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "18-40",
+            "weight": 0.22,
+            "condition": {
+                "biomes":  [
+                    "#cobblemon:is_swamp"
+                ],
+                "canSeeSky": true
+            }
+        }
+    ]
+}

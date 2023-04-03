@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "saprentice-1",
+            "pokemon": "saprentice",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-28",
+            "weight": 2.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sneezing-1",
+            "pokemon": "sneezing",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-48",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        },
+        {
+            "id": "sneezing-2",
+            "pokemon": "sneezing",
+            "type": "pokemon",
+            "preset": "urban",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-48",
+            "weight": 0.4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            }
+        }
+    ]
+}

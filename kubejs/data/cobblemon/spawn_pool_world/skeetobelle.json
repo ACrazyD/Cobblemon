@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skeetobelle-1",
+            "pokemon": "skeetobelle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-70",
+            "weight": 0.02,
+            "condition": {
+                "biomes":  [
+                    "#cobblemon:is_swamp"
+                ],
+                "canSeeSky": true
+            }
+        }
+    ]
+}

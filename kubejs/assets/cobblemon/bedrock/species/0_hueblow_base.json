@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hueblow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hueblow",
+      "model": "cobblemon:hueblow.geo",
+      "texture": "cobblemon:textures/pokemon/hueblow/hueblow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hueblow/hueblow_shiny.png"
+    }
+  ]
+}

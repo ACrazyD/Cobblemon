@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drakoon-1",
+            "pokemon": "drakoon",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

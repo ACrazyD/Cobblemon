@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:debugs",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:debugs",
+      "model": "cobblemon:debugs.geo",
+      "texture": "cobblemon:textures/pokemon/debugs/debugs.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/debugs/debugs_shiny.png"
+    }
+  ]
+}

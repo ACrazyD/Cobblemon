@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kamerog",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kamerog",
+      "model": "cobblemon:kamerog.geo",
+      "texture": "cobblemon:textures/pokemon/kamerog/kamerog.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kamerog/kamerog_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:masquerjade",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:masquerjade",
+      "model": "cobblemon:masquerjade.geo",
+      "texture": "cobblemon:textures/pokemon/masquerjade/masquerjade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/masquerjade/masquerjade_shiny.png"
+    }
+  ]
+}

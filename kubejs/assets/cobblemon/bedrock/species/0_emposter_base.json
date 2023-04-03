@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:emposter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:emposter",
+      "model": "cobblemon:emposter.geo",
+      "texture": "cobblemon:textures/pokemon/emposter/emposter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/emposter/emposter_shiny.png"
+    }
+  ]
+}

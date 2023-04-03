@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nephigan-1",
+            "presets": [
+                "underground"
+            ],
+            "pokemon": "nephigan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-15",
+            "weight": 2.5,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        }
+    ]
+}

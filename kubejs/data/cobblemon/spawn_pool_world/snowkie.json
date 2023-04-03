@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snowkie-1",
+            "pokemon": "snowkie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-17",
+            "weight": 9,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_snowy"
+                ]
+            }
+        }
+    ]
+}

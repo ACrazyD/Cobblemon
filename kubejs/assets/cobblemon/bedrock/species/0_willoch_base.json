@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:willoch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:willoch",
+      "model": "cobblemon:willoch.geo",
+      "texture": "cobblemon:textures/pokemon/willoch/willoch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/willoch/willoch_shiny.png"
+    }
+  ]
+}

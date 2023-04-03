@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:slinkalink",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [ "pink" ],
+      "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_pink.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pink"
+      ],
+      "texture": "cobblemon:textures/pokemon/slinkalink/slinkalink_pink_shiny.png"
+    }
+  ]
+}

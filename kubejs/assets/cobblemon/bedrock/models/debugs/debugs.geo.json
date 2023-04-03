@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bugs",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bugs",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "root",
+					"parent": "bugs",
+					"pivot": [0, 13, 0]
+				},
+				{
+					"name": "swarm1",
+					"parent": "root",
+					"pivot": [0, 13, -2],
+					"cubes": [
+						{"origin": [-11, 2, -2], "size": [22, 22, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "swarm2",
+					"parent": "root",
+					"pivot": [0, 13, 2],
+					"cubes": [
+						{"origin": [-11, 2, 2], "size": [22, 22, 0], "pivot": [0, 13, 2], "rotation": [0, 0, -180], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "swarm3",
+					"parent": "root",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-11, 2, 0], "size": [22, 22, 0], "pivot": [0, 5, 0], "rotation": [0, -90, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "swarm4",
+					"parent": "root",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-11, 2, 0], "size": [22, 22, 0], "pivot": [0, 5, 0], "rotation": [0, -45, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "swarm5",
+					"parent": "root",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-11, 2, 0], "size": [22, 22, 0], "pivot": [0, 13, 0], "rotation": [0, 45, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "core",
+					"parent": "root",
+					"pivot": [0, 13, 0],
+					"cubes": [
+						{"origin": [-3, 10, -3], "size": [6, 6, 6], "uv": [40, 52]},
+						{"origin": [-3.5, 12, -3.5], "size": [7, 2, 7], "uv": [12, 55]}
+					]
+				}
+			]
+		}
+	]
+}

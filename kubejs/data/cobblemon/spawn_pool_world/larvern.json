@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "larvern-1",
+            "pokemon": "larvern",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-25",
+            "weight": 4.7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

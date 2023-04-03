@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "workahollo-1",
+            "pokemon": "workahollo",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-30",
+            "weight": 3.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_mountain"
+                ],
+                "timeRange": "night"
+            }
+        },
+        {
+            "id": "workahollo-2",
+            "pokemon": "workahollo",
+            "presets": [
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-30",
+            "weight": 1.6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_temperate",
+                    "#cobblemon:is_mountain"
+                ],
+                "timeRange": "day"
+            }
+        }
+    ]
+}

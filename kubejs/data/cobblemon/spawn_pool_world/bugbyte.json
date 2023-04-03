@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bugbyte-1",
+            "pokemon": "bugbyte",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-11",
+            "weight": 4.7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

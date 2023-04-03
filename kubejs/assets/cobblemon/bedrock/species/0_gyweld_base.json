@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gyweld",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gyweld",
+      "model": "cobblemon:gyweld.geo",
+      "texture": "cobblemon:textures/pokemon/gyweld/gyweld.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/gyweld/gyweld_shiny.png"
+    }
+  ]
+}

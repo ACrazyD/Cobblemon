@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:amperox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amperox",
+      "model": "cobblemon:amperox.geo",
+      "texture": "cobblemon:textures/pokemon/amperox/amperox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amperox/amperox_shiny.png"
+    }
+  ]
+}

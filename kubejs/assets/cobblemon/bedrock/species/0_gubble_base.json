@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gubble",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gubble",
+      "model": "cobblemon:gubble.geo",
+      "texture": "cobblemon:textures/pokemon/gubble/gubble.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/gubble/gubble_shiny.png"
+    }
+  ]
+}

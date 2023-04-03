@@ -1,0 +1,32 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [0, -0.6, 0],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.15, 0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": [
+        "bedrock(salamarine, water_idle)"
+      ]
+    },
+    "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": ["FLOAT", "STAND"],
+        "animations": [
+            "bedrock(salamarine, water_idle)"
+        ]
+    },
+    "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": ["SWIM", "WALK"],
+        "animations": [
+            "bedrock(salamarine, water_swim)"
+        ]
+    }
+  }
+}

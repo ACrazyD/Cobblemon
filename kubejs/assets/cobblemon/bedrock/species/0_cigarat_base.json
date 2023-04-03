@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cigarat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cigarat",
+      "model": "cobblemon:cigarat.geo",
+      "texture": "cobblemon:textures/pokemon/cigarat/cigarat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cigarat/cigarat_shiny.png"
+    }
+  ]
+}

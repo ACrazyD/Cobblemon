@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:saprentice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:saprentice",
+      "model": "cobblemon:saprentice.geo",
+      "texture": "cobblemon:textures/pokemon/saprentice/saprentice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/saprentice/saprentice_shiny.png"
+    }
+  ]
+}
