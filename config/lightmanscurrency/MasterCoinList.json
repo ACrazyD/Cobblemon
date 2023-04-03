@@ -11,7 +11,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_copper",
-        "count": 10
+        "count": 50
       },
       "initial": "item.lightmanscurrency.coin_iron.initial",
       "plural": "item.lightmanscurrency.coin_iron.plural"

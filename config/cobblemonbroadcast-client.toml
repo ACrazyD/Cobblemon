@@ -21,7 +21,7 @@
 	#Enable or disable DiscordWebhook support
 	discordhook = false
 	#Webhook End code of url
-	endcode = "10780232141243872095343/ZpFBl-lGgZziiMg5JP7vLXXxuBPAteyq1OkLLGS8qANJyA1vE7UIZxS9bD16mb1UCGKi"
+	endcode = "1092292192720130158/_4hOg78Gp-w-NcoGbX16PzE51SrFtT4VBI5QACD4UWqnxvzQD2LSaMLdt_9i5BaQMXmZ"
 	#Webhook name
 	webhookname = "Cobble-Broadcaster"
 	#Webhook Embed Title

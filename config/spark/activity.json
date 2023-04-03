@@ -5,6 +5,71 @@
       "name": "ACrazyD",
       "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
     },
+    "time": 1680491623303,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6KeyU6NX55"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
+    "time": 1680490762507,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AM4jggwfVZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
+    "time": 1680490757249,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ajNYR9e4oT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
+    "time": 1680490694330,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A34k9lUK6w"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
+    "time": 1680490689920,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cE929Zl0N5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ACrazyD",
+      "uniqueId": "e7571960-a0c0-4e1e-80c0-6bff047db401"
+    },
     "time": 1680410296917,
     "type": "Profiler",
     "data": {
