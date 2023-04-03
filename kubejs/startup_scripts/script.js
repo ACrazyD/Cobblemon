@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
+console.info('MORE ITEMS/BLOCKS!!!!')
 
 StartupEvents.registry('item', event => {
 	var pokeballs = ['poke','citrine','verdant','azure','roseate','slate','premier','great','ultra','safari','fast','level','lure','heavy','love','friend','moon','sport','park','net','dive','nest','repeat','timer','luxury','dusk','heal','quick','dream','beast','master','cherish']
