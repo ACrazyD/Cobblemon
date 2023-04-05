@@ -11,7 +11,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_copper",
-        "count": 50
+        "count": 64
       },
       "initial": "item.lightmanscurrency.coin_iron.initial",
       "plural": "item.lightmanscurrency.coin_iron.plural"
@@ -21,7 +21,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_iron",
-        "count": 10
+        "count": 32
       },
       "initial": "item.lightmanscurrency.coin_gold.initial",
       "plural": "item.lightmanscurrency.coin_gold.plural"
@@ -31,7 +31,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_gold",
-        "count": 10
+        "count": 32
       },
       "initial": "item.lightmanscurrency.coin_emerald.initial",
       "plural": "item.lightmanscurrency.coin_emerald.plural"
@@ -41,7 +41,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_emerald",
-        "count": 10
+        "count": 32
       },
       "initial": "item.lightmanscurrency.coin_diamond.initial",
       "plural": "item.lightmanscurrency.coin_diamond.plural"
@@ -51,7 +51,7 @@
       "chain": "main",
       "worth": {
         "coin": "lightmanscurrency:coin_diamond",
-        "count": 10
+        "count": 16
       },
       "initial": "item.lightmanscurrency.coin_netherite.initial",
       "plural": "item.lightmanscurrency.coin_netherite.plural"

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "cobblemon:blocks/pc",
+		"particle": "cobblemon:blocks/pc"
+	}
+}

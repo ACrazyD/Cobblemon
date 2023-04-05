@@ -2,4 +2,5 @@ To-Do
 
 - Look into adding coins into urns loot table
 - Force LargeBiomes For Servers/Clients
-- Add Lootr Chests to CarryOn Blacklist
+- Add Lootr Chests to CarryOn Blacklist (Tho add to create movable tag)
+- Add all of lightmanscurrency's stuff to CarryOn Blacklist

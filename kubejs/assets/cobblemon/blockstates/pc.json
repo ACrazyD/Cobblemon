@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=south,part=top,on=false": {
+      "model": "cobblemon:block/pc_particle"
+    },
+    "facing=west,part=top,on=false": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 90
+    },
+    "facing=north,part=top,on=false": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 180
+    },
+    "facing=east,part=top,on=false": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 270
+    },
+    "facing=south,part=top,on=true": {
+      "model": "cobblemon:block/pc_particle"
+    },
+    "facing=west,part=top,on=true": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 90
+    },
+    "facing=north,part=top,on=true": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 180
+    },
+    "facing=east,part=top,on=true": {
+      "model": "cobblemon:block/pc_particle",
+      "y": 270
+    },
+    "facing=south,part=bottom,on=false": {
+      "model": "cobblemon:block/pc"
+    },
+    "facing=west,part=bottom,on=false": {
+      "model": "cobblemon:block/pc",
+      "y": 90
+    },
+    "facing=north,part=bottom,on=false": {
+      "model": "cobblemon:block/pc",
+      "y": 180
+    },
+    "facing=east,part=bottom,on=false": {
+      "model": "cobblemon:block/pc",
+      "y": 270
+    },
+    "facing=south,part=bottom,on=true": {
+      "model": "cobblemon:block/pc_on"
+    },
+    "facing=west,part=bottom,on=true": {
+      "model": "cobblemon:block/pc_on",
+      "y": 90
+    },
+    "facing=north,part=bottom,on=true": {
+      "model": "cobblemon:block/pc_on",
+      "y": 180
+    },
+    "facing=east,part=bottom,on=true": {
+      "model": "cobblemon:block/pc_on",
+      "y": 270
+    }
+  }
+}

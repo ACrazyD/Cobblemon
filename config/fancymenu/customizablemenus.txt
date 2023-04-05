@@ -1,2 +1,5 @@
 type = customizablemenus
 
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
+}
+

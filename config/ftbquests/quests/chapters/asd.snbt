@@ -6,6 +6,145 @@
 	title: "asd"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Collect your starter Cobblemon!"
+			id: "4016160486E7B7EA"
+			tasks: [{
+				id: "2B5BD5ABD56B7DF6"
+				type: "advancement"
+				title: "Pick Me!"
+				advancement: "cobblemon:root"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0A97F66CF37B9E5B"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Im sure you have already noticed."
+			description: [
+				"This is not a normal cobblemon modpack. Theres more then just cobblemon to do."
+				"Things from Create, to Immsersive, Go out and build a town! Sell your wares and travel far!"
+			]
+			dependencies: ["4016160486E7B7EA"]
+			id: "7151129B974BEC50"
+			tasks: [{
+				id: "0032D7B85E02C3C4"
+				type: "checkmark"
+				title: "Time to get started..."
+			}]
+			rewards: [
+				{
+					id: "1400A677F8401F7D"
+					type: "item"
+					item: "cobblemon:poke_ball"
+					count: 10
+				}
+				{
+					id: "2D0EB780C32CAC2B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7363F2C67028FC2D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7105A27D50F5E67C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E87FF5DBBF48F8B"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E33450473A2A1BF"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3196679D7C6B50FA"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4146AC65F97F5106"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "309B32D4AB3623A4"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35B235A02BD12BF9"
+					type: "item"
+					item: "lightmanscurrency:coin_copper"
+					count: 15
+				}
+			]
+		}
+	]
 	quest_links: [ ]
 }
