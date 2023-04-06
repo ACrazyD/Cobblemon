@@ -9,6 +9,10 @@ StartupEvents.registry('item', event => {
         event.create(`uncharged_${f}_ball`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x4f5359);
         event.create(`incomplete_${f}_ball`, `create:sequenced_assembly`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x222324);
     });
+	var _type = ['Ingot', 'Nugget', 'Sheet']
+	_type.forEach(f => {
+		event.create(`platinum_${f.toLowerCase()}`).texture(`create:item/brass_${f.toLowerCase()}`).color(0, 0x85a69e).displayName(`Platinum ${f}`);
+	})
 })
 
 	// Register new items here
