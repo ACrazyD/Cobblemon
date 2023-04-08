@@ -23,18 +23,10 @@ StartupEvents.registry('item', event => {
 
 	event.create('incomplete_metal_coating', 'create:sequenced_assembly').texture('cobblemon:items/metal_coat').color(0, 0x222324)
 	event.create('incomplete_unwrapped_candy', 'create:sequenced_assembly')
-
-	event.create('crushed_platinum_ore')
 	event.create('unwrapped_candy')
 	event.create('ruby')
-
 	event.create('randomium_ingot')
 	event.create('randomium_sheet')
-
-
-
-
-
 
 })
 
