@@ -9,6 +9,7 @@ StartupEvents.registry('item', event => {
         event.create(`uncharged_${f}_ball`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x4f5359);
         event.create(`incomplete_${f}_ball`, `create:sequenced_assembly`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x222324);
     });
+
 })
 
 	// Register new items here
