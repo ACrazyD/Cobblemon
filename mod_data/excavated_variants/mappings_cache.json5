@@ -20,9 +20,9 @@
       "byg:brimstone_nether_gold_ore",
     ],
     "redstone_ore": [
+      "minecraft:deepslate_redstone_ore",
       "minecraft:redstone_ore",
       "byg:cryptic_redstone_ore",
-      "minecraft:deepslate_redstone_ore",
     ],
     "randomium_ore": [
       "randomium:randomium_ore_end",
@@ -80,9 +80,9 @@
       "byg:ametrine_ore",
     ],
     "quartz_ore": [
+      "minecraft:nether_quartz_ore",
       "byg:brimstone_nether_quartz_ore",
       "byg:blue_nether_quartz_ore",
-      "minecraft:nether_quartz_ore",
     ],
   },
   "stone_mappings": {
