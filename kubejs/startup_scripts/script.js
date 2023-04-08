@@ -4,11 +4,16 @@ console.info('MORE ITEMS/BLOCKS!!!!')
 
 StartupEvents.registry('item', event => {
 	var pokeballs = ['poke', 'citrine', 'verdant', 'azure', 'roseate', 'slate', 'premier', 'great', 'ultra', 'safari', 'fast', 'level', 'lure', 'heavy', 'love', 'friend', 'moon', 'sport', 'park', 'net', 'dive', 'nest', 'repeat', 'timer', 'luxury', 'dusk', 'heal', 'quick', 'dream', 'beast', 'master', 'cherish']
-
+	var toolsItems = ['sword','pickaxe','axe','shovel','hoe','helmet','chestplate','leggings','boots']
+	
 	pokeballs.forEach(f => {
 		event.create(`uncharged_${f}_ball`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x4f5359);
 		event.create(`incomplete_${f}_ball`, `create:sequenced_assembly`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x222324);
 	});
+	
+	toolsItems.forEach(f => {
+	event.create(`ruby_${f}`,`${f}`).tier('ruby').texture(`minecraft:iron_${f}`).color(0, 0xb00734);
+	})
 
 	var _type = ['Ingot', 'Nugget', 'Sheet']
 	_type.forEach(f => {
