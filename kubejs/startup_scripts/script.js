@@ -18,11 +18,11 @@ StartupEvents.registry('item', event => {
 	var apricorns = ['red', 'yellow', 'green', 'blue', 'pink', 'black', 'white']
 
 	apricorns.forEach(f => {
-		event.create(`cooked_${f}_apricorn`).color(0, 0x4f5359);
+		event.create(`cooked_${f}_apricorn`).texture(`cobblemon:items/${f}_apricorn`).color(0, 0x4f5359);
 	});
 
-	event.create('incomplete_metal_coating', 'create:sequenced_assembly').texture('cobblemon:items/metal_coat').color(o, 0x222324)
-	event.create('unwrapped_candy', 'create:sequenced_assembly')
+	event.create('incomplete_metal_coating', 'create:sequenced_assembly').texture('cobblemon:items/metal_coat').color(0, 0x222324)
+	event.create('incomplete_unwrapped_candy', 'create:sequenced_assembly')
 
 	event.create('crushed_platinum_ore')
 	event.create('unwrapped_candy')
