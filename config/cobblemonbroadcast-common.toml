@@ -26,4 +26,6 @@
 	webhookname = "Cobble-Broadcaster"
 	#Webhook Embed Title
 	webhookembedtitle = "Pokemon Captured by: "
+	#Webhook Avatar Url
+	avatarurl = ""
 

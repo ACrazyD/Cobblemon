@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BPB",
+    "MFM",
+    "SHS"
+  ],
+  "key": {
+    "P": [
+      {
+        "item": "create:propeller"
+      }
+    ],
+    "F": [
+      {
+        "item": "create:fluid_tank"
+      }
+    ],
+    "H": [
+      {
+        "item": "create:blaze_burner"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "M": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:sturdy_sheet"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

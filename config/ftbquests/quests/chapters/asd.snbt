@@ -3,7 +3,8 @@
 	group: ""
 	order_index: 0
 	filename: "asd"
-	title: "asd"
+	title: "Welcome Trainer"
+	icon: "cobblemon:poke_ball"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -28,11 +29,13 @@
 			}]
 		}
 		{
+			icon: "cobblemon:poke_ball"
 			x: 1.0d
 			y: -0.5d
-			subtitle: "Im sure you have already noticed."
+			subtitle: "Lets see here."
 			description: [
 				"This is not a normal cobblemon modpack. Theres more then just cobblemon to do."
+				""
 				"Things from Create, to Immsersive, Go out and build a town! Sell your wares and travel far!"
 			]
 			dependencies: ["4016160486E7B7EA"]
@@ -144,6 +147,39 @@
 					count: 15
 				}
 			]
+		}
+		{
+			title: "TM:Cut - Achieved"
+			icon: "minecraft:oak_log"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "Pro Tip. #23"
+			description: [
+				"Hold shift while cutting down a tree to only cut one log at a time."
+				""
+				"When not holding shift you can fell a whole tree from the ground. *This takes more hunger, and time*"
+			]
+			dependencies: ["7151129B974BEC50"]
+			id: "099C2E793D806247"
+			tasks: [{
+				id: "48692DC4542D4A79"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [{
+				id: "02061BDD80A051FE"
+				type: "item"
+				item: "lightmanscurrency:coin_iron"
+				count: 5
+			}]
 		}
 	]
 	quest_links: [ ]

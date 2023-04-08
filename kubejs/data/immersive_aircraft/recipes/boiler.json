@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "INI",
+    "SSS"
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:copper_sheet"
+      }
+    ],
+    "N": [
+      {
+        "item": "minecraft:iron_nugget"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:boiler"
+  }
+}
