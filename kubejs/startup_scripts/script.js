@@ -12,7 +12,7 @@ StartupEvents.registry('item', event => {
 	});
 	
 	toolsItems.forEach(f => {
-	event.create(`ruby_${f}`,`${f}`).tier('ruby').texture(`minecraft:iron_${f}`).color(0, 0xb00734);
+	event.create(`ruby_${f}`,`${f}`).tier('ruby').parentModel(`minecraft:iron_${f}`).color(0, 0xb00734);
 	})
 
 	var _type = ['Ingot', 'Nugget', 'Sheet']
