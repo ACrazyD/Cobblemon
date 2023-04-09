@@ -4,15 +4,19 @@ console.info('MORE ITEMS/BLOCKS!!!!')
 
 StartupEvents.registry('item', event => {
 	var pokeballs = ['poke', 'citrine', 'verdant', 'azure', 'roseate', 'slate', 'premier', 'great', 'ultra', 'safari', 'fast', 'level', 'lure', 'heavy', 'love', 'friend', 'moon', 'sport', 'park', 'net', 'dive', 'nest', 'repeat', 'timer', 'luxury', 'dusk', 'heal', 'quick', 'dream', 'beast', 'master', 'cherish']
-	var toolsItems = ['sword','pickaxe','axe','shovel','hoe','helmet','chestplate','leggings','boots']
-	
+	var rubyArm = ['helmet','chestplate','leggings','boots']
+	var rubyTools = ['sword','pickaxe','axe','shovel','hoe']
+
 	pokeballs.forEach(f => {
 		event.create(`uncharged_${f}_ball`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x4f5359);
 		event.create(`incomplete_${f}_ball`, `create:sequenced_assembly`).texture(`cobblemon:items/poke_balls/${f}_ball`).color(0, 0x222324);
 	});
-	
-	toolsItems.forEach(f => {
-	event.create(`ruby_${f}`,`${f}`).tier('ruby').parentModel(`minecraft:iron_${f}`).color(0, 0xb00734);
+
+	rubyArm.forEach(f => {
+		event.create(`ruby_${f}`, `${f}`).tier('ruby').glow(true)
+	})
+	rubyTools.forEach(f => {
+		event.create(`ruby_${f}`, `${f}`).tier('ruby')
 	})
 
 	var _type = ['Ingot', 'Nugget', 'Sheet']
@@ -32,6 +36,14 @@ StartupEvents.registry('item', event => {
 	event.create('ruby')
 	event.create('randomium_ingot')
 	event.create('randomium_sheet')
+
+	event.create('crays_steak').glow(true).unstackable().texture('minecraft:item/cooked_beef').displayName(`ACrazyD's Steak`).food(food => {
+		food.hunger(100)
+			.saturation(100)
+			.eaten(ctx => {
+				ctx.player.tell(Text.darkPurple("Nerd"))
+			})
+	})
 
 })
 
