@@ -9,8 +9,8 @@ ServerEvents.recipes(e => {
             'PPP'
         ],
         {
-            P: '#forge:plates/aluminum',
-            D: APO('gem_dust'),
+            P: '#forge:plates/zinc',
+            D: '#forge:gems',
             S: '#handcrafted:shelves'
         }
     )
@@ -24,12 +24,66 @@ ServerEvents.recipes(e => {
             'PRP'
         ],
         {
-            P: '#forge:plates/aluminum',
+            P: '#forge:plates/zinc',
             G: '#forge:glass_panes',
-            C: CC('computer_normal'),
+            C: '#chipped:redstone_lamp',
             R: '#forge:storage_blocks/redstone'
         }
     )
+    
+
+    //BeastBall
+    e.remove({ output: 'cobblemon:beast_ball' })
+    e.shaped(Item.of('cobblemon:beast_ball', 4),
+        [
+            'isi',
+            'scs',
+            'isi'
+        ],
+        {
+            i: '#forge:ingots/gold',
+            s: '#deeperdarker:reinforced_echo_shard',
+            c: '#forge:gems/diamond'
+        }
+    )
+
+    //Apricorn Replacer
+    e.replaceInput(
+        { input: 'cobblemon:red_apricorn' }, 
+        'cobblemon:red_apricorn',            
+        'cobblemon:cooked_red_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:yellow_apricorn' }, 
+        'cobblemon:yellow_apricorn',            
+        'cobblemon:cooked_yellow_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:green_apricorn' }, 
+        'cobblemon:green_apricorn',            
+        'cobblemon:cooked_green_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:blue_apricorn' }, 
+        'cobblemon:blue_apricorn',            
+        'cobblemon:cooked_blue_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:pink_apricorn' }, 
+        'cobblemon:pink_apricorn',            
+        'cobblemon:cooked_pink_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:black_apricorn' }, 
+        'cobblemon:black_apricorn',            
+        'cobblemon:cooked_black_apricorn'         
+    )
+    e.replaceInput(
+        { input: 'cobblemon:white_apricorn' }, 
+        'cobblemon:white_apricorn',            
+        'cobblemon:cooked_white_apricorn'         
+    )
+
 
 
 

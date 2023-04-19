@@ -3,6 +3,7 @@
   "maxPokemonLevel": 200,
   "maxPokemonFriendship": 255,
   "announceDropItems": true,
+  "defaultDropItemMethod": "ON_ENTITY",
   "ambientPokemonCryTicks": 360,
   "defaultBoxCount": 30,
   "pokemonSaveIntervalSeconds": 30,
@@ -50,6 +51,6 @@
   "displayEntityLevelLabel": true,
   "shinyRate": 8192.0,
   "captureCalculator": "cobblemon",
-  "playerDamagePokemon": false,
+  "playerDamagePokemon": true,
   "appleLeftoversChance": 0.025
 }

@@ -20,22 +20,14 @@
       "byg:brimstone_nether_gold_ore",
     ],
     "redstone_ore": [
+      "minecraft:deepslate_redstone_ore",
       "minecraft:redstone_ore",
       "byg:cryptic_redstone_ore",
-      "minecraft:deepslate_redstone_ore",
     ],
     "randomium_ore": [
       "randomium:randomium_ore_end",
       "randomium:randomium_ore_deepslate",
       "randomium:randomium_ore",
-    ],
-    "nickel_ore": [
-      "immersiveengineering:deepslate_ore_nickel",
-      "immersiveengineering:ore_nickel",
-    ],
-    "silver_ore": [
-      "immersiveengineering:deepslate_ore_silver",
-      "immersiveengineering:ore_silver",
     ],
     "diamond_ore": [
       "minecraft:diamond_ore",
@@ -44,10 +36,6 @@
     "iron_ore": [
       "minecraft:deepslate_iron_ore",
       "minecraft:iron_ore",
-    ],
-    "uranium_ore": [
-      "immersiveengineering:ore_uranium",
-      "immersiveengineering:deepslate_ore_uranium",
     ],
     "lapis_ore": [
       "minecraft:deepslate_lapis_ore",
@@ -61,14 +49,6 @@
       "minecraft:deepslate_coal_ore",
       "minecraft:coal_ore",
     ],
-    "lead_ore": [
-      "immersiveengineering:deepslate_ore_lead",
-      "immersiveengineering:ore_lead",
-    ],
-    "aluminum_ore": [
-      "immersiveengineering:deepslate_ore_aluminum",
-      "immersiveengineering:ore_aluminum",
-    ],
     "anthracite_ore": [
       "byg:anthracite_ore",
     ],
@@ -80,9 +60,9 @@
       "byg:ametrine_ore",
     ],
     "quartz_ore": [
+      "minecraft:nether_quartz_ore",
       "byg:brimstone_nether_quartz_ore",
       "byg:blue_nether_quartz_ore",
-      "minecraft:nether_quartz_ore",
     ],
   },
   "stone_mappings": {

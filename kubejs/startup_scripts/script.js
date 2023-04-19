@@ -3,6 +3,8 @@
 console.info('MORE ITEMS/BLOCKS!!!!')
 
 StartupEvents.registry('item', event => {
+	
+	/*
 	var pokeballs = ['poke', 'citrine', 'verdant', 'azure', 'roseate', 'slate', 'premier', 'great', 'ultra', 'safari', 'fast', 'level', 'lure', 'heavy', 'love', 'friend', 'moon', 'sport', 'park', 'net', 'dive', 'nest', 'repeat', 'timer', 'luxury', 'dusk', 'heal', 'quick', 'dream', 'beast', 'master', 'cherish']
 	var rubyArm = ['helmet','chestplate','leggings','boots']
 	var rubyTools = ['sword','pickaxe','axe','shovel','hoe']
@@ -23,27 +25,24 @@ StartupEvents.registry('item', event => {
 	_type.forEach(f => {
 		event.create(`platinum_${f.toLowerCase()}`).texture(`create:item/brass_${f.toLowerCase()}`).color(0, 0x85a69e).displayName(`Platinum ${f}`);
 	})
+	*/
+
 
 	var apricorns = ['red', 'yellow', 'green', 'blue', 'pink', 'black', 'white']
 
 	apricorns.forEach(f => {
-		event.create(`cooked_${f}_apricorn`).texture(`cobblemon:items/${f}_apricorn`).color(0, 0x4f5359);
+		event.create(`cobblemon:cooked_${f}_apricorn`).texture(`cobblemon:items/${f}_apricorn`).color(0, 0x4f5359).food(food => {
+		food.hunger(2)
+			.saturation(1)
+		})
 	});
 
-	event.create('incomplete_metal_coating', 'create:sequenced_assembly').texture('cobblemon:items/metal_coat').color(0, 0x222324)
-	event.create('incomplete_unwrapped_candy', 'create:sequenced_assembly')
-	event.create('unwrapped_candy')
-	event.create('ruby')
-	event.create('randomium_ingot')
-	event.create('randomium_sheet')
-
-	event.create('crays_steak').glow(true).unstackable().texture('minecraft:item/cooked_beef').displayName(`ACrazyD's Steak`).food(food => {
-		food.hunger(100)
-			.saturation(100)
-			.eaten(ctx => {
-				ctx.player.tell(Text.darkPurple("Nerd"))
-			})
-	})
+	event.create('cobbletweaker:incomplete_metal_coating', 'create:sequenced_assembly').texture('cobblemon:items/metal_coat').color(0, 0x222324)
+	event.create('cobbletweaker:incomplete_unwrapped_candy', 'create:sequenced_assembly')
+	event.create('cobbletweaker:unwrapped_candy')
+	event.create('cobbletweaker:ruby')
+	event.create('cobbletweaker:randomium_ingot')
+	event.create('cobbletweaker:randomium_sheet')
 
 })
 

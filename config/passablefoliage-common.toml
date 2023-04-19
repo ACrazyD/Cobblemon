@@ -4,6 +4,7 @@ speedReductionHorizontal = 0.9
 speedReductionVertical = 0.9
 modifyPathFinding = true
 playerOnly = false
+alwaysNotViewBlocking = true
 
 [modules]
 enchantment = true
